@@ -51,6 +51,22 @@ nav .collapse button.btn-appointment {
     margin: 0px !important;
 }
 
+.nav .go-top {
+    position: fixed;
+    right: 20px;
+    border: none;
+    background: #33cccc;
+    padding: 20px;
+    border-radius: 100px;
+    color: white;
+    z-index: 2000;
+    transition: All .2s ease-in-out
+}
+
+.nav .go-top:hover {
+    background: #2db5b5;
+}
+
 /*end navbar*/
 
 /*Start Header*/
@@ -152,7 +168,6 @@ nav .collapse button.btn-appointment {
     font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.8em;
     color: white;
-    margin-right: 20px;
 }
 
 .features .feat:first-child {
