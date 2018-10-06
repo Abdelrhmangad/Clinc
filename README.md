@@ -1,1 +1,1 @@
-# Clinck
+# Clinc
