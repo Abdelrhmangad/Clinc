@@ -1,0 +1,836 @@
+/*start General*/
+
+::selection {
+    background-color: #5dd7d7;
+}
+
+.btn-appointment {
+    background: #33cccc;
+    color: white;
+    margin: 60px;
+    padding: 15px;
+    border: none;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.btn-appointment:hover {
+    box-shadow: 0px 8px 30px black;
+    transition: .9s;
+}
+
+/*End General*/
+
+/*start nav bar*/
+
+.nav .bg-light {
+    background: white !important;
+    padding: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav .co {
+    color: #33cccc !important;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    font-weight: bolder;
+}
+
+nav ul li {
+    font-size: .9em;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+nav .collapse button.btn-appointment {
+    font-size: .6em !important;
+    font-weight: normal;
+    letter-spacing: 0px;
+    padding: 10px !important;
+    margin: 0px !important;
+}
+
+/*end navbar*/
+
+/*Start Header*/
+
+.header {
+    background-color: #33CCCC;
+    color: white;
+}
+
+.header p,
+.header ul,
+.header ul li {
+    margin-bottom: 0px !important;
+    padding: 10px 20px
+}
+
+.header .media-list ul {
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+    border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.header .media-list p {
+    border-left: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/*End Header*/
+
+/*Start caruosol*/
+
+.carousel-inner .carousel-caption h5 {
+    font-size: 40px;
+    padding-bottom: 40px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    z-index: 21;
+}
+
+.carousel-inner .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.18);
+    z-index: 2;
+}
+
+.carousel-item img {
+    background-size: cover;
+    height: 45em !important;
+}
+
+.carousel-caption p {
+    font-size: 24px;
+}
+
+.carousel-caption h5 {
+    margin-bottom: -30px !important;
+    font-size: 50px !important;
+}
+
+.carousel-caption button {
+    background-color: #33CCCC !important;
+    padding: 18px 30px !important;
+    color: #fff;
+    border: none !important;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 240px;
+}
+
+.carousel-caption button:hover {
+    box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
+}
+
+.carousel-indicators li {
+    border-radius: 50%;
+    width: 12px;
+    height: 12px;
+    margin-left: 9px;
+    bottom: 100px;
+}
+
+/*End Carusol*/
+
+/*Start Features*/
+
+.features {
+    position: relative;
+    bottom: 40px;
+    z-index: 3;
+    background: transparent !important;
+}
+
+.features .feat {
+    padding: 4em 2.5em;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 1.8em;
+    color: white;
+    margin-right: 20px;
+}
+
+.features .feat:first-child {
+    background: #5fc9f8;
+
+}
+
+.features .feat:nth-child(2) {
+    background: #6356E5;
+}
+
+.features .feat:last-child {
+    background: #A82FFC
+}
+
+.features .feat h2 {
+    margin: 20px 0px;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.features .feat input {
+    background-color: transparent;
+    border: none;
+    border-left: 2px solid #33cccc;
+    border-bottom: 1px solid #33cccc;
+    color: white;
+    padding-left: 17px;
+    padding-bottom: 7px;
+    margin-left: 0px !important;
+}
+
+.features .feat input:hover {
+    cursor: pointer;
+    transition: .5s;
+}
+
+/*End features*/
+
+/*Start services*/
+
+.services {
+    margin: 30px;
+    padding: 100px;
+    display: block;
+
+}
+
+.services h2:after {
+    display: block;
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+    content: '';
+    width: 100px;
+    height: 2px;
+    margin: 15px auto 30px;
+    background: #33cccc;
+}
+
+.services h2 span {
+    color: #33CCCC;
+}
+
+.services .ser {
+    margin-top: 40px !important;
+    margin-bottom: 30px !important;
+}
+
+.services .ser i {
+    font-size: 3em;
+    padding: 25px;
+    color: #33cccc;
+    background-color: #f5f5f5;
+    transition: .3s;
+    transition-timing-function: ease-in-out;
+}
+
+.services .ser:hover i {
+    color: white;
+    background-color: #33cccc;
+}
+
+.services .ser h3 {
+    font-size: 1.8em;
+    padding: 20px 0px;
+    font-weight: 300;
+    cursor: pointer
+}
+
+.services .ser p {
+    color: #828282;
+}
+
+/*end Services*/
+
+/*Start Our Team*/
+
+.team {
+    background-color: #f2f2f2;
+    padding: 100px;
+}
+
+.team h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    margin: 20px auto 30px;
+    background: #33cccc;
+}
+
+.team h2 span {
+    color: #33cccc;
+}
+
+.team p {
+    margin-bottom: 100px !important;
+    font-weighT: 400;
+    color: #656565
+}
+
+.team .doc h4 {
+    color: #33cccc;
+    margin-top: 30px;
+    font-weight: 400;
+}
+
+.team .doc:hover {
+    cursor: pointer
+}
+
+.team .overlay-doc {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    width: 90%;
+    height: 0%;
+    background-color: rgba(255, 255, 255, 0.74);
+    text-align: center;
+    overflow: hidden;
+    transition: all .5s
+}
+
+.team .overlay-doc i {
+    font-size: 25px;
+    color: #33cccc;
+    margin-top: 65%;
+    margin-right: 5px;
+}
+
+.team .overlay-doc i:hover {
+    transform: scale(1.1)
+}
+
+/*End Our Team*/
+
+/*Start Staticts*/
+
+.stat {
+    display: block;
+    position: relative;
+    padding: 50px;
+    background: url(../images/hospital.jpg) no-repeat fixed center;
+}
+
+.stat .overlay {
+    padding: 150px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 3;
+    background-color: rgba(51, 204, 204, 0.79);
+}
+
+.stat .no {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    z-index: 5;
+    font-size: 2em;
+    color: #ececec;
+    font-weighT: bold;
+}
+
+.stat .no p {
+    font-size: 2em;
+    margin: 20px;
+}
+
+.stat .no h4 {
+    font-size: .7em;
+}
+
+/*End Staticts*/
+
+/*start Choose Us*/
+
+.choose {
+    padding: 100px 0px;
+    position: relative;
+}
+
+.choose h2 span {
+    color: #33cccc
+}
+
+.choose h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    margin: 20px auto 30px;
+    background: #33cccc;
+}
+
+.choose .para {
+    margin-bottom: 100px !important;
+    font-weighT: 400;
+    font-size: 1em;
+    color: #656565
+}
+
+.choose .up {
+    position: absolute;
+    bottom: 0px;
+    left: 150px;
+    background-color: rgba(0, 0, 0, 0.79);
+    width: 150vh;
+    height: 100vh;
+    z-index: 5;
+    display: none;
+    font-size: 50px;
+    color: #33cccc;
+    text-align: right;
+    padding: 20px 65px;
+}
+
+.choose .vid i {
+    border-radius: 50%;
+    position: absolute;
+    top: 35%;
+    left: 42%;
+    font-size: 25px;
+    padding: 30px;
+    background-color: white;
+    color: white;
+    cursor: pointer;
+    transition: .5s ease-in-out
+}
+
+.choose .vid i:hover {
+    transform: scale(1.3);
+}
+
+.choose .vid .fa-play:before {
+    color: #33cccc;
+    border-radius: 50%;
+}
+
+.choose .reason .fa-users:before {
+    display: inline-block;
+    border-radius: 100px;
+    content: "\f0c0";
+    padding: 20px;
+    font-size: 25px;
+    background-color: #33cccc;
+    color: white;
+    margin: 20px;
+}
+
+.choose .reason .fa-desktop:before {
+    display: inline-block;
+    border-radius: 100px;
+    content: "\f108";
+    padding: 20px;
+    font-size: 25px;
+    background-color: #33cccc;
+    color: white;
+    margin: 20px;
+}
+
+.choose .reason .desc {
+    width: 70%;
+}
+
+.choose .reason .desc h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.choose .reason .desc p {
+    color: #828282;
+    margin-bottom: 20px
+}
+
+/*End Choose us */
+
+/*Start Recent*/
+
+.recent {
+    padding: 100px 0px 140px;
+    background: #f2f2f2;
+}
+
+.recent h2 span {
+    color: #33cccc
+}
+
+.recent h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    margin: 20px auto 30px;
+    background: #33cccc;
+}
+
+.recent .para {
+    margin-bottom: 100px !important;
+    font-weighT: 400;
+    font-size: 1em;
+    color: #656565
+}
+
+.recent .blog {
+    display: inline-block
+}
+
+.recent .blog span {
+    border-radius: 100%;
+    height: 90px;
+    width: 90px;
+    font-weight: 400;
+    font-size: 20px;
+    padding: calc(30px - 15px);
+    line-height: 24px;
+    color: #fff;
+    background-color: #33cccc;
+    float: left;
+}
+
+.recent .blog .blog-content {
+    width: 80%;
+    float: right;
+    margin-top: -20px;
+}
+
+.recent .blog .blog-content p {
+    color: #828282;
+}
+
+.recent .blog .blog-content h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.recent .carousel-caption h6,
+.recent .carousel-caption p {
+    position: absolute;
+    left: 0px !important;
+}
+
+.recent .carousel-caption h6 {
+    bottom: 55px !important;
+    left: -55px !important;
+    padding: 10px;
+    font-weight: 300;
+    background-color: #33cccc;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.recent .carousel-caption p {
+    bottom: 5px !important;
+    left: -55px !important;
+    font-weight: 200;
+    font-size: 25px;
+    color: #ffffff;
+}
+
+/*End Recent*/
+
+/*start free*/
+
+.free {
+    display: block;
+    position: relative;
+    padding: 100px;
+    background: url(../images/hospital.jpg) no-repeat fixed center;
+}
+
+.free .overlay2 {
+    padding: 150px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(18, 18, 18, 0.79);
+}
+
+.free h2 {
+    color: white;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+
+}
+
+.free h2 span {
+    color: #33cccc;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+.free p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    margin: 0 0 20px 0;
+    font-size: 24px;
+    color: white;
+}
+
+.free .nomber {
+    padding: 50px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.free button {
+    display: block;
+    margin: 30px auto;
+    padding: 20px 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700;
+    color: white;
+    transition: .3s;
+    -webkit-transition-timing-function: linear;
+    -moz-transition-timing-function: linear;
+    -o-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+
+.free button:hover {
+    background-color: #33cccc;
+    border-color: #33cccc;
+}
+
+.free p:nth-child(4) {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/*End Free*/
+
+/*start Patient*/
+
+.patient {
+    padding: 100px 0px 140px;
+    background: #f2f2f2;
+}
+
+.patient h2 span {
+    color: #33cccc
+}
+
+.patient h2:after {
+    display: block;
+    content: '';
+    width: 100px;
+    height: 3px;
+    margin: 20px auto 30px;
+    background: #33cccc;
+}
+
+.patient .para2 {
+    margin-bottom: 100px !important;
+    font-weighT: 400;
+    font-size: 1em;
+    color: #656565
+}
+
+.patient .quote {
+    width: 31.3% !important;
+    flex: none;
+    padding: 30px;
+    background: white;
+    position: relative;
+    margin: 10px;
+    -webkit-box-shadow: 0px 5px 3px rgba(199, 199, 199, 0.77);
+    box-shadow: 0px 5px 3px rgba(199, 199, 199, 0.77);
+    border-radius: 10px;
+
+}
+
+.patient .quote i:first-child {
+    position: absolute;
+    top: -40px;
+    right: 45%;
+    border: 5px solid #f2f2f2;
+    background-color: #33cccc;
+    padding: 19px;
+    font-size: 20px;
+    border-radius: 50%;
+    color: white;
+}
+
+/*end Patient*/
+
+/*Start gallery*/
+
+.gallery {
+    background: #f2f2f2;
+}
+
+.gallery .bton {
+    position: relative;
+    display: block;
+    width: 180px;
+    margin: auto;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 10px 15px;
+    background-color: transparent;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    cursor: text;
+}
+
+.gallery .bton:before {
+    position: absolute;
+    top: 18px;
+    bottom: 0;
+    content: '';
+    width: 100px;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.1);
+    margin-left: -125px;
+}
+
+.gallery .bton:after {
+    position: absolute;
+    top: 18px;
+    bottom: 0;
+    content: '';
+    width: 100px;
+    height: 1px;
+    right: 0;
+    margin-right: -110px;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.gallery .col {
+    margin-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.gallery .help a {
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    transition: 0.5s;
+}
+
+.gallery .help a:hover {
+    box-shadow: inset 0px 0px 124px 11px #33cccc;
+}
+
+/*End Gallery*/
+
+/*start Footer*/
+
+.footer {
+    padding: 100px;
+    display: block;
+    position: relative;
+    background-size: 3px 0px;
+    background: url(../images/care.jpg) no-repeat center center;
+    color: white;
+}
+
+.footer .overlay {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.footer .main h3 {
+    font-size: 40px;
+    font-weight: 400;
+    color: #33cccc;
+}
+
+.footer .main p {
+    color: white;
+}
+
+.footer .badge {
+    background-color: transparent !important;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.footer .form h6 {
+    margin-bottom: 20px;
+}
+
+.footer .form input {
+    width: 310px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.71);
+    border: none;
+    color: #828282;
+    font-size: 18px;
+}
+
+.footer .form textarea {
+    width: 310px;
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.71);
+    border: none;
+    color: #828282;
+    font-size: 18px;
+}
+
+.footer .form input:focus,
+.footer .form textarea:focus {
+    border: none;
+    outline: none;
+}
+
+.footer .form button {
+    background-color: #33CCCC !important;
+    padding: 18px 30px !important;
+    color: #fff;
+    border: none !important;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+
+.sign {
+    display: block;
+    padding: 10px;
+    color: white;
+    background: black;
+    font-size: 22px;
+    line-height: 60px;
+}
+
+.sign .gad {
+    font-weight: 900;
+    font-size: 35px;
+    font-family: 'Charmonman', cursive;
+    color: #33cccc;
+}
+
+/*End Footer*/
