@@ -17,7 +17,7 @@
 <body>
     <!--Start The Navbar-->
     <div class="nav">
-        <button class="go-top" id="up" onclick="scrollUp"> <i class=" fas fa-arrow-up fa-2x "></i></button>
+        <button class="go-top" id="up"> <i class=" fas fa-arrow-up fa-x "></i></button>
         <div class="container ">
             <nav class="navbar navbar-expand-lg navbar-light bg-light ">
                 <a class="col co col-sm-6 navbar-brand " href="# ">Medical.</a>
@@ -187,22 +187,22 @@
             <p class="lead col-8 wow fadeInUp m-auto ">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
 
             <div class="row m-auto ">
-                <div onmouseover="hover(overlay1) " onmouseout="away(overlay1) " class="doc wow fadeInUp col-md-3 " data-wow-delay=".3s ">
-                    <div class="overlay-doc " id="overlay1 ">
+                <div onmouseover="hover(overlay1)" onmouseout="away(overlay1) " class="doc wow fadeInUp col-md-3 " data-wow-delay=".3s ">
+                    <div class="overlay-doc " id="overlay1">
                         <i class="fab fa-twitter-square "></i>
                         <i class="fab fa-facebook-square "></i>
                         <i class="fab fa-google-plus-g "></i>
                     </div>
                     <div class="overlay d-none ">
                         <!--Use Js To show this on hover-->
-                        <i class="fab fa-facebook fa-3x "></i>
+                        <i class="fab fa-facebook fa-3x"></i>
                     </div>
                     <img style="width:100%;height:350px;background-size:cover " src="images/doc1.jpg " alt=" ">
                     <h4>Mike Smith</h4>
                     <p>Neurology Doctor</p>
                 </div>
                 <div onmouseover="hover(overlay2) " onmouseout="away(overlay2) " class="doc wow fadeInUp col-md-3 " data-wow-delay=".6s ">
-                    <div class="overlay-doc " id="overlay2 ">
+                    <div class="overlay-doc " id="overlay2">
                         <i class="fab fa-twitter-square "></i>
                         <i class="fab fa-facebook-square "></i>
                         <i class="fab fa-google-plus-g "></i>
@@ -216,7 +216,7 @@
                     <p>Orthopedic Surgeon</p>
                 </div>
                 <div onmouseover="hover(overlay3) " onmouseout="away(overlay3) " class="doc wow fadeInUp col-md-3 " data-wow-delay=".9s ">
-                    <div class="overlay-doc " id="overlay3 ">
+                    <div class="overlay-doc " id="overlay3">
                         <i class="fab fa-twitter-square "></i>
                         <i class="fab fa-facebook-square "></i>
                         <i class="fab fa-google-plus-g "></i>
@@ -230,8 +230,7 @@
                     <p>Health Care</p>
                 </div>
                 <div onmouseover="hover(overlay4) " onmouseout="away(overlay4) " class="doc wow fadeInUp col-md-3 " data-wow-delay="1.2s ">
-                    <div class="overlay-doc " id="overlay4 ">
-                        <i class="fab fa-twitter-square "></i>
+                    <div class="overlay-doc " id="overlay4"> <i class="fab fa-twitter-square "></i>
                         <i class="fab fa-facebook-square "></i>
                         <i class="fab fa-google-plus-g "></i>
                     </div>
@@ -257,22 +256,22 @@
             <div class="row ">
                 <div class="col-md-3 no wow fadeInUp " data-wow-delay=".2s ">
                     <i class="fas fa-users fa-1x "></i>
-                    <p id="nomber4 " class="display-4 ">0</p>
+                    <p id="nomber4" class="display-4">0</p>
                     <h4 class="display-4 ">Satisfied Customer</h4>
                 </div>
                 <div class="col-md-3 no wow fadeInUp " data-wow-delay=".4s ">
                     <i class="fa fa-home fa-1x "></i>
-                    <p id="nomber3 " class="display-4 ">0</p>
+                    <p id="nomber3" class="display-4 ">0</p>
                     <h4 class="display-4 ">Hospitals</h4>
                 </div>
                 <div class="col-md-3 no wow fadeInUp " data-wow-delay=".6s ">
                     <i class="fas fa-user-shield fa-1x "></i>
-                    <p id="nomber2 " class="display-4 ">0</p>
+                    <p id="nomber2" class="display-4 ">0</p>
                     <h4 class="display-4 ">Qualified Doctor</h4>
                 </div>
                 <div class="col-md-3 no wow fadeInUp " data-wow-delay=".8s ">
                     <i class="far fa-building fa-1x "></i>
-                    <p id="nomber1 " class="display-4 ">0</p>
+                    <p id="nomber1" class="display-4 ">0</p>
                     <h4 class="display-4 ">Department</h4>
                 </div>
             </div>
@@ -287,11 +286,11 @@
         <div class="container text-center ">
             <h2 class="display-4 wow fadeInUp "><span>WHY </span>CHOOSE US!</h2>
             <p class="para lead col-8 m-auto wow fadeInUp ">Dignissimos asperiores vitae velit veniam totam fuga molestias accusamus alias autem provident. Odit ab aliquam dolor eius.</p>
-            <div onclick="down(vid) " class="up " id="vid ">&times;</div>
+            <div onclick="down(vido)" class="up " id="vid ">&times;</div>
             <div class="row ">
-                <div class="vid wow bounceInRight col-6 ">
+                <div id="vido" class="vid wow bounceInRight col-6 ">
                     <img style="width:100%; " src="images/surgery.jpg " alt=" ">
-                    <i onclick="up(vid) " class="fas fa-play "></i>
+                    <i onclick="show(vido)" class="fas fa-play "></i>
                 </div>
                 <div class="col-6 ">
                     <div class="reason row ">
@@ -526,14 +525,18 @@
             <br> Designed by <br> <span class="gad ">Abdelrhman Gad</span><br> Demo Images: Unsplash &amp; Pexels
         </p>
     </div>
-
     <!--end Footer-->
+
+    <!--<script src="js/proper.js "></script>
+<script src="js/bootstrap.min.js "></script>-->
+    <script src="js/wow.min.js "></script>
     <script src=" js/jquery-3.3.1.min.js "></script>
     <script src="js/jquery.nicescroll.min.js"></script>
-    <script src="js/proper.js "></script>
-    <script src="js/bootstrap.min.js "></script>
-    <script src="js/main.js "></script>
-    <script src="js/wow.min.js "></script>
+    <script src="js/main.js ">
+
+
+    </script>
+
     <script>
         new WOW().init();
 
