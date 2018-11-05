@@ -193,17 +193,17 @@ nav .collapse button.btn-appointment {
 .features .feat input {
     background-color: transparent;
     border: none;
-    border-left: 2px solid #33cccc;
     border-bottom: 1px solid #33cccc;
     color: white;
     padding-left: 17px;
     padding-bottom: 7px;
     margin-left: 0px !important;
+    transition: .5s;
 }
 
 .features .feat input:hover {
     cursor: pointer;
-    transition: .5s;
+    font-size:21px;
 }
 
 /*End features*/
