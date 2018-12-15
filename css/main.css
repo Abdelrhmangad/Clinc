@@ -847,10 +847,19 @@ nav .collapse button.btn-appointment {
 }
 
 .sign .gad {
-    font-weight: 900;
-    font-size: 35px;
+    font-weight: bold;
+    font-size: 1.5em;
     font-family: 'Charmonman', cursive;
     color: #33cccc;
 }
 
+.sign i{
+  padding:.5em;
+  border:.5px solid grey;
+  color:#38A1F3;
+  border-radius:5px;
+}
+.sign .fa-facebook{
+    color:#3b5999;
+}
 /*End Footer*/
